@@ -1,0 +1,10 @@
+# Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+*.tfvars
+
+# Ignore AWS credentials and sensitive files
+terraform.tfvars
+*.pem
